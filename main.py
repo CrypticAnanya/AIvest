@@ -12,8 +12,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
-        'Get Help': 'https://github.com/ayushgoel135/AIvest',
-        'Report a bug': "https://github.com/ayushgoel135/AIvest/issues",
+        'Get Help': 'https://github.com/CrypticAnanya/AIvest',
+        'Report a bug': "https://github.com/CrypticAnanya/AIvest/issues",
         'About': "# OptiSpend Pro+ - AI-Powered Financial Optimization Suite"
     }
 )
@@ -30,6 +30,11 @@ st.markdown("""
         --warning: #F59E0B;
         --danger: #DC2626;
     }
+    .stApp {
+            background-color: #f0f2f6;
+            color: #333333;
+        }
+
     .main {
         background-color: #f8fafc;
     }
